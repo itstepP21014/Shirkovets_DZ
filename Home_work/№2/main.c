@@ -4,12 +4,14 @@
 int main()
 {
    int a,b;
-+   printf("Input two numbers:\n");
-+   scanf("%d%d",&a,&b);
-    printf("7 + 5 = 12\n");
-    printf("7 - 5 = 2\n");
-    printf("7 * 5 = 35\n");
-    printf("7 / 5 = 1\n");
-    printf("7 %% 5 = 2\n");
++   printf("Enter the number a:");
+    scanf("%d",&a);
+    printf("Enter the number b:");
+    scanf("%d",&b);
+    printf("%d+%d=%d\n",a,b,a+b);
+    printf("%d-%d=%d\n",a,b,a-b);
+    printf("%d*%d=%d\n",a,b,a*b);
+    printf("%d/%d=%d\n",a,b,a/b);
+    printf("%d%%%d=%d\n",a,b,a%b);
     return 0;
 }
