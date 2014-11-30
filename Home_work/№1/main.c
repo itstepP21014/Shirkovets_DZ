@@ -5,8 +5,8 @@ int main()
 {
 
 
-    printf("And The Moon And The Stars And The World\n");
-    printf("by Charles Bukowski\n");
+    printf("\tAnd The Moon And The Stars And The World\n");
+    printf("\t\tby Charles Bukowski\n\n");
     printf("Long walks at night--\n");
     printf("that’s what good for the soul:\n");
     printf("peeking into windows\n");
