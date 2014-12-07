@@ -12,7 +12,7 @@ int main()
     int c;
     printf("Enter the seconds c:");
     scanf("%d",&c);
-    printf("%d : %d : %d\n",a,b,c);
+    printf("%02d : %02d : %02d\n",a,b,c);
     int d;
     printf("Enter the hours d:");
     scanf("%d",&d);
@@ -22,7 +22,7 @@ int main()
     int f;
     printf("Enter the number f:");
     scanf("%d",&f);
-    printf("%d : %d : %d\n",d,e,f);
+    printf("%02d : %02d : %02d\n",d,e,f);
     int g;
     printf("Enter the seconds g:");
     scanf("%d",&g);
@@ -32,6 +32,7 @@ int main()
     int i;
     printf("Enter the minute i:");
     scanf("%d",&i);
-    printf("d : %d : %d\n",g,h,i);
+    printf("%02d : %02d : %02d\n",g,h,i);
     return 0;
 }
+
